@@ -1,0 +1,29 @@
+{
+  "name": "comecando-uma-API-REST",
+  "version": "1.0.0",
+  "description": "Curso Alura: Começando uma API REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMenoci/comecando-uma-API-REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMenoci/comecando-uma-API-REST/issues"
+  },
+  "homepage": "https://github.com/LeandroMenoci/comecando-uma-API-REST#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0"
+  }
+}

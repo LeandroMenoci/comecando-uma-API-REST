@@ -23,9 +23,9 @@ module.exports = {
     return encontrado
   },
 
-  atualizar(id, dadosParaAtualizado) {
+  atualizar(id, dadosParaAtualizar) {
     return Modelo.update(
-      dadosParaAtualizado,
+      dadosParaAtualizar,
       {
         where: { id: id }
       }

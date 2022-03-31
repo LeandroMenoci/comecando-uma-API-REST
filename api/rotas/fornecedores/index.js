@@ -37,7 +37,6 @@ roteador.get('/:idFornecedor', async (requisicao, resposta) => {
 })
 
 roteador.put('/:idFornecedor', async (requisicao, resposta) => {
-
   try {
     const id = requisicao.params.idFornecedor
     const dadosRecebidos = requisicao.body
@@ -52,7 +51,6 @@ roteador.put('/:idFornecedor', async (requisicao, resposta) => {
       })
     )
   }
-
 })
 
 

@@ -1,4 +1,3 @@
-const { ValidationError } = require('sequelize/types')
 const TabelaFornecedor = require('./TabelaFornecedor')
 
 class Fornecedor {
@@ -39,6 +38,7 @@ class Fornecedor {
     await TabelaFornecedor.pegarPorId(this.id)
     const campos = ['empresa', 'email', 'categoria']
     const dadosParaAtualizado = {}
+
     campos.forEach((campo) => {
       const valor = this[campo]
       if (typeof valor === 'string' && valor.length > 0) {
